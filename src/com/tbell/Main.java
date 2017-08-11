@@ -1,6 +1,7 @@
 package com.tbell;
 
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
@@ -30,5 +31,9 @@ public class Main {
 
         TelematicService telematcis = new TelematicService();
         telematcis.report(newVehicle);
+
+
+
+
     }
 }
